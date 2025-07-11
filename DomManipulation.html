@@ -10,9 +10,19 @@
 
 <body>
     <form action="">
-        <input id="full_name" type="text" placeholder="Full name....">
-        <input id="age" type="number" placeholder="Age....">
-        <input id="user_role" type="text" placeholder="Role...">
+        <div> <input id="full_name" type="text" placeholder="Full name....">
+            <span class="error" id="nameError"></span>
+        </div>
+        <div> <input id="age" type="number" placeholder="Age....">
+            <span class="error" id="ageError"></span>
+
+        </div>
+
+        <div> <input id="user_role" type="text" placeholder="Role...">
+            <span class="error" id="roleError"></span>
+
+        </div>
+
         <button id="addPersonBtn">Add person</button>
     </form>
 
@@ -20,7 +30,9 @@
     <div class="container">
 
     </div>
+    <!-- <script src="formValidation.js"></script> -->
     <script src="DomScript.js"></script>
+
 
 </body>
 
