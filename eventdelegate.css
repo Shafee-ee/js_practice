@@ -1,0 +1,13 @@
+.card_delegate {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card_delegate.selected {
+    background-color: #d1e7dd;
+    border-color: #0f5132;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.3)
+}

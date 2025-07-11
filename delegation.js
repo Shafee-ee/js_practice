@@ -16,12 +16,9 @@ container.addEventListener('click', function (e) {
 
     console.log(`you clicked on:`, nameEl.textContent);
 
-    //feedback
+    document.querySelectorAll('.card_delegate').forEach(c => c.classList.remove('selected'));
 
-    card.style.backgroundColor = '#d1e7dd';
+    classList.add('selected')
 
-    setTimeout(() => {
-        card.style.backgroundColor = '';// reset
-    }, 500)
 
-})
+}) 
